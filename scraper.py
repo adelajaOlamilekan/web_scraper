@@ -951,9 +951,9 @@ def sign_in_jiji():
         login_button.click()
 
         #my google email 
-        email = "abdulqowiyyuolamilekan@gmail.com"
+        email = ""
         #my google password
-        password = "jiji2000"
+        password = ""
 
         #access jiji login email input 
         email_input_box = WebDriverWait(driver,3).until(EC.presence_of_element_located((By.XPATH, '//input[@class="fw-input qa-login-field"]'))) 
